@@ -1,0 +1,6 @@
+### PROFILE: Get user by ID
+http://localhost:8282/swag-profile/profile/646564830b991786e54f220e
+### PROFILE: Get Playlist by User ID
+http://localhost:8282/swag-profile/profile/playlist/646564830b991786e54f220e
+### PROFILE: Get Favorite artists by User ID
+http://localhost:8282/swag-profile/profile/favArtist/646564830b991786e54f220e

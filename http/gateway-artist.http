@@ -1,0 +1,4 @@
+### ARTIST: Get All Artist
+http://localhost:8282/swag-artist/artist
+### ARTIST: RabbitMQ
+http://localhost:8282/swag-artist/artist/like/646564830b991786e54f220e/646564830b991786e54f220e/true

@@ -1,0 +1,6 @@
+### HOME (swag-artist): Get All artists
+http://localhost:8282/swag-home/home/artist
+### HOME (swag-profile): Get Playlist by User ID
+http://localhost:8282/swag-home/home/profile/playlist/646564830b991786e54f220e
+### HOME (swag-profile): Get Favorite artists by User ID
+http://localhost:8282/swag-home/home/profile/favArtist/646564830b991786e54f220e

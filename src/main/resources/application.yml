@@ -40,6 +40,25 @@ spring:
 #            - Path=/currency-converter/**
 #          filters:
 #            - RewritePath=/currency-converter/(?<path>.*), /$\{path}
+      routes:
+        - id: swag-home
+          uri: lb://swag-home
+          predicates:
+            - Path=/swag-home/**
+          filters:
+            - RewritePath=/swag-home/(?<path>.*), /$\{path}
+        - id: swag-artist
+          uri: lb://swag-artist
+          predicates:
+            - Path=/swag-artist/**
+          filters:
+            - RewritePath=/swag-artist/(?<path>.*), /$\{path}
+        - id: swag-profile
+          uri: lb://swag-profile
+          predicates:
+            - Path=/swag-profile/**
+          filters:
+            - RewritePath=/swag-profile/(?<path>.*), /$\{path}
 
 management:
   endpoints:
@@ -52,3 +71,4 @@ eureka:
     registerWithEureka: true
     serviceUrl:
       defaultZone: http://swag-discovery:8703/eureka/
+#      defaultZone: http://localhost:8703/eureka/
